@@ -75,7 +75,7 @@ public class Rectangulo extends FiguraGeometrica {
     }
 }
 
-// Crear un arreglo de objetos de tipo FiguraGeometrica
+// Crear un array de objetos de tipo FiguraGeometrica
 FiguraGeometrica[] figuras = new FiguraGeometrica[] {new Circulo(), new Rectangulo()};
 
 // Llamar al método dibujar() en cada objeto del array
