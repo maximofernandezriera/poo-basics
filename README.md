@@ -26,6 +26,50 @@ Persona persona = new Persona("Juan", 30);
 persona.saludar();
 ```
 
+## Abstracción
+La abstracción es la práctica de mostrar solo la información esencial de un objeto y ocultar los detalles de implementación.
+
+Ejemplo:
+```
+public abstract class Vehiculo {
+public abstract void arrancar();
+public abstract void frenar();
+}
+
+public class Coche extends Vehiculo {
+@Override
+public void arrancar() {
+System.out.println("Arrancando el coche");
+}
+
+@Override
+public void frenar() {
+System.out.println("Frenando el coche");
+}
+}
+
+public class Moto extends Vehiculo {
+@Override
+public void arrancar() {
+System.out.println("Arrancando la moto");
+}
+
+@Override
+public void frenar() {
+System.out.println("Frenando la moto");
+}
+}
+
+// Crear un arreglo de objetos de tipo Vehiculo
+Vehiculo[] vehiculos = new Vehiculo[] {new Coche(), new Moto()};
+
+// Llamar a los métodos arrancar() y frenar() en cada objeto del arreglo
+for (Vehiculo vehiculo : vehiculos) {
+vehiculo.arrancar();
+vehiculo.frenar();
+}
+```
+
 ## Herencia
 La herencia permite que una clase herede las propiedades y comportamientos de otra clase.
 
