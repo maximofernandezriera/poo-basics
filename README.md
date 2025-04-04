@@ -166,4 +166,3 @@ System.out.println("Saldo actual: " + cuenta.getSaldo());
 - https://leetcode.com/discuss/post/5321129/oops-revision-1-java-by-lazy_code_19236-7e4v/
 - https://leetcode.com/discuss/post/5321424/oops-revision-2-java-by-lazy_code_19236-2i6n/
 - https://leetcode.com/discuss/post/5345963/oops-revision-3-java-by-lazy_code_19236-mlx1/
-- 
