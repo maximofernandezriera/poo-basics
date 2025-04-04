@@ -92,7 +92,7 @@ empleado.saludar();
 empleado.mostrarSalario();
 ```
 
-## Polimorfismo
+## Polimorfismo: meme --> https://www.youtube.com/watch?v=Nz8ssH7LiB0&t=6s
 El polimorfismo permite que un objeto se comporte de diferentes maneras dependiendo del contexto.
 
 Ejemplo:
@@ -104,14 +104,14 @@ public class FiguraGeometrica {
 }
 
 public class Circulo extends FiguraGeometrica {
-    @Override
+    
     public void dibujar() {
         System.out.println("Dibujando un círculo");
     }
 }
 
 public class Rectangulo extends FiguraGeometrica {
-    @Override
+    
     public void dibujar() {
         System.out.println("Dibujando un rectángulo");
     }
