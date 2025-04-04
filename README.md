@@ -37,12 +37,11 @@ public abstract void frenar();
 }
 
 public class Coche extends Vehiculo {
-@Override
+
 public void arrancar() {
 System.out.println("Arrancando el coche");
 }
 
-@Override
 public void frenar() {
 System.out.println("Frenando el coche");
 }
