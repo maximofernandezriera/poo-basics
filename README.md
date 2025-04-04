@@ -48,12 +48,11 @@ System.out.println("Frenando el coche");
 }
 
 public class Moto extends Vehiculo {
-@Override
+
 public void arrancar() {
 System.out.println("Arrancando la moto");
 }
 
-@Override
 public void frenar() {
 System.out.println("Frenando la moto");
 }
