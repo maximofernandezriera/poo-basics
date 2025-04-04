@@ -59,10 +59,10 @@ System.out.println("Frenando la moto");
 }
 }
 
-// Crear un arreglo de objetos de tipo Vehiculo
+// Crear un array de objetos de tipo Vehiculo
 Vehiculo[] vehiculos = new Vehiculo[] {new Coche(), new Moto()};
 
-// Llamar a los métodos arrancar() y frenar() en cada objeto del arreglo
+// Llamar a los métodos arrancar() y frenar() en cada objeto del array
 for (Vehiculo vehiculo : vehiculos) {
 vehiculo.arrancar();
 vehiculo.frenar();
